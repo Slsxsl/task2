@@ -1,0 +1,553 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1600px;
+    margin: auto;
+}
+header{
+    border-bottom: 1px solid  rgba(239, 239, 255, 1);
+    background: rgba(252, 252, 255, 1);
+
+    
+}
+header .content{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .choices a{
+    width: 132px;
+    height: 44px;
+  font-family: "Poppins", sans-serif;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(32, 33, 66, 1);
+    opacity: 70%;
+    
+}
+header .choices  a:hover{
+ 
+    padding:10px 15px;
+    border-radius: 32px;
+    background: rgba(241, 241, 253, 1);
+    opacity: 100%;
+
+}
+.content .buttons a{
+    text-decoration: none;
+    color: rgba(32, 33, 66, 1);
+
+}
+.content .buttons button{
+    border: none;
+    margin-right: 26px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(32, 33, 66, 1);
+
+}
+.content .buttons .sign {
+width: 120px;
+height: 54px;
+border-radius: 10px;
+background-color: rgba(32, 33, 66, 1);    
+
+}
+.content .buttons .log{
+ 
+    background: rgba(252, 252, 255, 1);
+    
+}
+.content .buttons .sign a{
+    color: white;
+
+}
+main {
+    display: flex;
+    
+    text-align: center;
+    background: rgba(252, 252, 255, 1);
+  
+
+
+}
+main .content{
+    height: 427px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+main .content .title h1{
+    padding-top: 90px;
+    font-size: 22px;
+    font-weight: 700;
+}
+main .content .title p{
+    padding-top: 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+main .first{
+
+
+  width: 106px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 30px;
+  margin-right: 1300px;
+display: flex;  
+justify-content: center;
+align-items: center;
+}
+main .first p{
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: rgba(255, 106, 149, 1);
+   
+   
+}
+.search{
+    display: flex;
+    width: 651px;
+    height: 74px;
+    border-radius: 10px;
+     border: 1px solid rgba(239, 239, 255, 1) ;
+    background: rgba(255, 255, 255, 1);
+    margin-top: 38px;
+box-shadow: 0px 16px 35px -15px rgba(2, 5, 132, 0.15);
+align-items: center;
+
+}
+.search .search-bar {
+    display: flex;
+    width: 96px;
+height: 34px;
+opacity: 60%;
+margin-left: 18px;
+align-items: center;
+justify-content: center;
+}
+.search .search-bar input{
+border: none;
+background: rgba(255, 255, 255, 1);
+width: 52px;
+height: 20px;
+font-size: 16px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600px;
+color:  rgba(32, 33, 66, 1);
+margin-left: 10px;
+
+}
+.search select{
+    text-align: center;
+    border: none;
+    width:  165px;
+    height:  54px;
+    border-radius: 7px;
+    font-size: 16px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600px;
+color: rgba(0, 0,0, 1);
+    
+}
+.search .line{
+    width: 1px;
+    height: 54px;
+    background: rgba(239, 239, 255, 1);
+    margin-top: 10px;
+   
+
+}
+.search .search-bar img{
+    width: 34px;
+    height: 34px;
+}
+.bottom .content{
+    height: 577px;
+}
+.bottom .head{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    align-items: center;
+    
+}
+.bottom .head a{
+    text-decoration: none;
+}
+.bottom .head button{
+    border: none;
+    background: rgba(252, 252, 255, 1);
+    
+}
+.head .choices button{
+    margin:10px
+}
+.head .choices {
+    display: flex;
+    width: 236px;
+    height: 61px;
+    border-radius: 70px;
+    background: rgba(252, 252, 255, 1);
+    border: 1px solid rgba(239, 239, 255, 1);
+    justify-content:center;
+    margin-top: -20px;
+
+}
+
+.head .choices a{
+    color: rgba(32, 33, 66, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 60%;
+}
+.head .choices button:active{
+    box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
+    border: 1px solid rgba(239, 239, 255, 1);
+    background-color: rgba(252, 252, 255, 1);
+    width: 107px;
+    height: 51px;
+    border-radius: 45px;
+    margin-top: -0;
+    margin-top: 4px;
+
+}
+
+
+.head .choices .latest{
+    box-shadow: 0px 10px 15px -10px rgba(2, 5, 132, 0.05);
+    border: 1px solid rgba(239, 239, 255, 1);
+    background: rgba(255, 255, 255, 1);
+    width: 107px;
+    height: 51px;
+    border-radius: 45px;
+     margin-top: -0;
+     margin-top: 4px;
+    
+     
+}
+.head .choices a:active{
+    opacity: 100%;
+}
+
+.menu a{
+    margin-right: 25px;
+    color: rgba(32, 33, 66, 1);
+    font-weight: 400px;
+    font-size: 16px;
+    opacity: 70%;
+    background-color: transparent;
+    border-radius: 32px;
+
+   
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 61px; 
+    height: 61px; 
+    border-radius: 50%;
+    background: rgba(252, 252, 255, 1);
+
+    margin-right: 15px;
+    border: 1px solid rgba(239, 239, 255, 1)
+
+}
+
+.icons a img {
+    max-width: 29px; 
+    max-height: 29px; 
+    
+}
+.icons  a:active{
+    width: 61px; 
+    height: 61px; 
+    border-radius: 50%;
+    border: 1px solid rgba(255, 106, 149, 1);
+}
+.icons .diamond{
+    border: 1px solid rgba(255, 106, 149, 1);
+}
+.body .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .comment{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card .comment  img{
+    width: 26px;
+    height: 26px;
+}
+.card .profile {
+    display: flex;
+   
+    
+}
+
+.card .comment{
+ 
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+text-align: center;
+
+}
+.card .comment span{
+    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+  text-align: center;
+}    
+.card .pic .diamond{
+ display: flex;
+   width: 61px;
+   height: 61px;
+   left: 20px;
+    top:0;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+  align-items: center;
+  justify-content: center;
+    margin-top: 20px;
+}
+.card .pic .diamond img{
+    width: 26px;
+    height: 26px;
+
+}
+.card .pic .picture{
+    position: relative;
+}
+
+header .menu-toggle{
+    display: none;
+    background-color: #14203E;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+}
+.menu-toggle:hover a{
+    display: block;
+}
+.menu-toggle a{
+    display:none;
+    color:#14203E;
+    padding: 5px;
+   background-color: rgba(255, 252, 248, 1);
+   font-family: "IBM Plex Sans", sans-serif;
+   border: 1px solid gray;
+   
+   text-decoration: none;
+}
+.menu-toggle:hover{
+    height: 10px;
+}
+.bottom select{
+    display: none;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    background-color: rgba(241, 241, 253, 1);
+}
+
+@media (max-width:800px) {
+    header .menu-toggle{
+        display: block;
+    }
+    header .choices{
+        display:none;
+    
+    }
+    header .buttons{
+        display: none;
+    }
+    main .content .title h1{
+        text-align: center;
+        font-size: 16px;
+        
+    }
+    main .content .title p{
+    
+        font-size: 12px;
+    text-align: center;
+    }
+    main .search{
+    
+        width:450px;
+        height: 54px;
+    }
+    main .first{
+
+
+       display: none;
+      
+      }
+     
+    
+    .head .choices a{
+        font-size: 12px;
+    }
+    .head .choices {
+       
+        width: 180px;
+        height: 45px;}
+
+        .head .choices button:active{
+            
+            width: 80px;
+            height: 35px;
+}
+
+.head .choices .latest{
+    width: 80px;
+    height: 35px;
+}
+
+.icons a {
+    
+    width: 45px; 
+    height: 45px; 
+}
+.icons a img {
+    max-width: 20px; 
+    max-height: 20px; 
+    
+}
+.bottom .menu{
+    display: none;
+}
+.bottom select{
+    display: block;
+}
+
+
+.bottom .body .content{
+    display: flex;
+   flex-direction: column;
+    
+    
+    align-items: center;
+}
+.card{
+    margin-top: 30px;
+}
+.card   img{
+    width: 400px;
+    height:350px;
+}
+.card .comment  img{
+    width: 12px;
+    height: 12px;
+}
+
+.card .comment{
+ 
+font-size: 10px;
+
+
+}
+.card .comment span{
+    
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 21px;
+  text-align: center;
+}    
+.card .pic .diamond{
+ display: flex;
+   width: 45px;
+   height: 45px;
+   left: 20px;
+    
+}
+.card .pic .diamond img{
+    width: 30px;
+    height: 30px;
+
+}
+
+.bottom .head{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom .icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head .choices {
+       
+    width: 150px;
+    height: 40px;}
+
+    .head .choices button:active{
+        
+        width: 80px;
+        height: 35px;
+}
+
+.head .choices .latest{
+width: 80px;
+height: 35px;
+}
+
+
+}
+
+
+@media (max-width:500px)
+{
+    main .search{
+    
+        width:380px;
+        height: 50px;
+    }
+
+    .card   img{
+        width: 300px;
+        height:250px;
+    }
+
+    .bottom select{
+        height: 30px;
+        width: 50px;
+    }
+}

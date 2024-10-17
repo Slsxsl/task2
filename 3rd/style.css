@@ -1,0 +1,1142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(249, 251, 252, 1);
+
+}
+.container{
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header .content{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding-left: 165px;
+    padding-right: 165px;
+    max-width: 1110px;
+    margin-top: 32px;
+ 
+    
+}
+
+header .content .menu a{
+    text-decoration: none;
+    margin-right: 40px;
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: rgba(108, 135, 174, 1);
+
+
+
+    
+}
+header .content .menu{
+    margin-top: 12px;
+
+}
+header .content .logo img{
+    width: 172px;
+
+    
+}
+
+
+header .register a{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    color: white;
+    
+}
+
+header .register button{
+    border: none;
+    width:  232px;
+height:  56px;
+border-radius: 100px;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+display:flex ;
+justify-content: center;
+align-items: center;
+}
+header .register img{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.pt1 .content{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    padding-left: 165px;
+    height: 780px;
+}
+.pt1 .icon img{
+    width: 520px;
+    height: 580px;
+}
+
+.pt1 h1{
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    background-clip: text;
+    color: transparent; 
+    
+    
+
+}
+.pt1 p{
+    padding-top: 16px;
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(108, 135, 174, 1);
+
+}
+
+.pt1 .left button{
+    margin-top: 40px;
+    width: 213px;
+height: 56px;
+padding: 16px 28px 16px 28px;
+border-radius: 100px;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+border: none;
+display: flex;
+justify-content: space-between;
+
+}
+.pt1 .left a{
+    
+    text-decoration: none;
+    color: white;
+    font-family: Sora;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.68px;
+
+
+}
+
+
+.pt1 .icon {
+    position: relative;
+}
+.right .dr{
+    left: 0;
+    bottom: 13px;
+    height: 69px;
+    width: 239px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    position: absolute;
+    text-align: left;
+}
+.right .dr p{
+   color: rgba(3, 20, 50, 1);
+   font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+
+.right .dr span{
+    font-family: "Sora", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 15.12px;
+text-align: left;
+
+color: rgba(108, 135, 174, 1);
+}
+
+.right .dr img{
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.pt2 .content{
+    height: 259px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(226, 237, 255, 1);
+
+}
+.pt2 .text{
+
+    font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+color:  rgba(3, 20, 50, 1);
+margin-bottom: 28px;
+
+}
+
+.pt2 img{
+    margin-left: 68px;
+}
+.pt2 {
+    
+    background: rgba(226, 237, 255, 1);
+}
+.pt3 .content{
+    margin-top: 120px;
+    
+}
+.pt3 .top{
+    padding-left: 165px;
+    padding-right: 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.top h1{
+    font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+color: rgba(3, 20, 50, 1);
+}
+
+.top p{
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+opacity: 80%;
+color: rgba(108, 135, 174, 1);
+}
+.pt3 .cards {
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.pt3 .cards h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    
+}
+.pt3 .cards p{
+    font-family: "Sora", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(108, 135, 174, 1);
+}
+.pt3 .cards .card{
+    width: 346px;
+    height: 341px;
+    border-radius: 24px;
+    background: white;
+    display: flex;
+justify-content:space-between;
+flex-direction: column;
+padding-left: 32px;
+padding-top: 32px;
+box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+
+}
+.pt3 .cards .card img{
+  
+    width: 80px;
+    height: 80px;
+ 
+
+}
+.card a{
+    margin-left: 44px;
+    text-decoration: none;
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22.68px;
+    text-align: left;
+    
+}
+.pt3 .cards .card button{
+    width: 282px;
+height: 56px;
+border-radius: 100px ;
+opacity: 0px;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+border: none;
+display: flex;
+align-items: center;
+margin-bottom: 32px;
+
+}
+.pt3 .cards .card button img{
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+
+}
+
+
+.pt4 .content{
+    margin-top: 144px;
+    height: 405px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pt4 .left{
+    position: relative;
+}
+
+.pt4 .left .frame{
+    position: absolute;
+bottom: 46px;
+right: 0;
+left:332px;
+}
+.pt4 .right h1{
+    font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+color: rgba(3, 20, 50, 1);
+}
+.pt4 .right p{
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(108, 135, 174, 1);
+padding-top: 16px;
+
+}
+.pt4 .right button{
+    width: 178px;
+height: 56px;
+border-radius: 100px ;
+display: flex; 
+align-items: center;
+justify-content: space-evenly;
+border: none;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+margin-top: 32px
+}
+.pt4 .right a{
+    color: white;
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.68px;
+text-align: left;
+
+}
+
+
+
+
+
+.pt5 .content{
+    margin-top: 144px;
+    height: 501px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.pt5 .left h1{
+    font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: left;
+color: rgba(3, 20, 50, 1);
+}
+.pt5 .left p{
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: rgba(108, 135, 174, 1);
+padding-top: 16px;
+
+}
+.pt5 .left button{
+    width: 178px;
+height: 56px;
+border-radius: 100px ;
+display: flex; 
+align-items: center;
+justify-content: space-evenly;
+border: none;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+margin-top: 32px
+}
+.pt5 .left a{
+    color: white;
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.68px;
+text-align: left;
+
+}
+
+.pt6 .content{
+    width: 1110px;
+height: 329px;
+border-radius: 32px;
+background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+box-shadow: 0px 20px 24px 0px rgba(65, 132, 247, 0.24);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-left: 165px;
+margin-top: 135px;
+}
+
+.pt6 .buttons {
+    margin-top: 41px;
+    display: flex;
+    gap: 32px;
+
+}
+.pt6 .text h1{
+    font-family: 'Poppins', sans-serif;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+text-align: center;
+color: white;
+margin-bottom: 8px;
+text-align: center;
+}
+.pt6 .text p{
+    font-family: Sora;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Sora", sans-serif;
+    color: white;
+}
+
+.pt6 .buttons .calendar a{
+    text-decoration: none;
+    font-family: "Sora", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.68px;
+text-align: left;
+color: white;
+}
+.pt6 .calendar{
+    width: 264px;
+height: 56px;
+border-radius: 100px;
+
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+background: none;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.pt6 .reserve {
+    text-decoration: none;
+ 
+    color: rgba(58, 142, 246, 1);
+    font-family: "Sora", sans-serif;
+font-size: 18px;
+font-weight: 600;
+line-height: 22.68px;
+text-align: left;
+display: flex;
+align-items: center;
+width: 178px;
+height: 56px;
+border-radius: 100px;
+background-color: white;
+border: none;
+justify-content: space-evenly;
+}
+
+.pt7 .content{
+    margin-top: 136px;
+    text-align: center;
+}
+
+.pt7 .cards{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+.pt7 .cards .card{
+    width: 535px;
+    height: 288px;
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 40px;
+    padding-left: 32px;
+    padding-top: 32px;
+    
+}
+.pt7 .cards .card .profile{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+
+}
+.pt7 .cards .card p{
+    padding-left: 9px;
+    font-family: 'Poppins', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+
+color: rgba(58, 142, 246, 1);
+}
+.pt7 .cards .card span{
+    font-family: "Sora", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+color: rgba(108, 135, 174, 1);
+
+}
+
+
+.pt7 .content h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    color: rgba(3, 20, 50, 1);
+    margin-bottom: 16px;
+}
+
+.pt7 .content p{
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: rgba(108, 135, 174, 1);
+
+}
+
+.pt8{
+    background: rgba(10, 14, 49, 1);
+    height: 394px;
+margin-top: 160px;
+}
+.pt8 .content {
+    padding-left: 165px;
+    padding-right: 165px;
+}
+.pt8 .cols {
+    display: flex;
+    justify-content: space-between;
+   
+    padding-top: 64px;
+    
+
+}
+
+.pt8 .cols .col-1 p{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-family: Poppins;
+font-size: 16px;
+font-style: italic;
+font-weight: 300;
+line-height: 24px;
+text-align: left;
+color: white;
+}
+.pt8 .col-1 img{
+    margin-right: 32px;
+}
+.pt8 .col-1 .whatsapp{
+    width: 32px;
+    height: 32px;
+}
+.pt8 .col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pt8 .col-2 h1{
+margin-bottom: 8PX;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: white;
+}
+.pt8 .col-2 p{
+
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: white;
+
+}
+
+.pt8 .col-3{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pt8 .col-3 h1{
+margin-bottom: 8PX;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: white;
+}
+.pt8 .col-3 p{
+
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: white;
+
+}
+
+.pt8 .col-4{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.pt8 .col-4 h1{
+margin-bottom: 8PX;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: white;
+}
+.pt8 .col-4 p{
+
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: left;
+color: white;
+
+}
+
+.pt8 .line{
+    width: 1110px;
+height: 0px;
+border: 1px solid rgba(255, 255, 255, 1);
+opacity: 30%;
+margin-top: 40px;
+
+
+}
+.pt8 .copy{
+    font-family: Sora;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.16px;
+text-align: center;
+color: white;
+margin-top: 40px
+}
+
+
+nav .menu{
+    display: none;
+    background-color: #14203E;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+}
+
+nav .menu:hover a{
+    display: block;
+}
+nav .menu a{
+    display:none;
+    color:#14203E;
+    padding: 5px;
+   background-color: rgba(255, 252, 248, 1);
+   font-family: "IBM Plex Sans", sans-serif;
+   border: 1px solid gray;
+   
+   text-decoration: none;
+}
+nav .menu:hover{
+    height: 10px;
+}
+
+header .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+    *{
+        padding: 0;
+    }
+    header .menu{
+        display: none;
+    }
+    header nav .menu{
+        display: block;
+    }
+
+    header .register{
+        display: none;
+    }
+
+
+
+   
+    header .content .logo img{
+width: 150px;
+    }
+
+.pt1 .content{
+    padding: o;
+}
+
+    .pt1 h1{
+  
+        font-size:20px;
+        
+    line-height: 24px;
+    }
+    .pt1 p{
+       
+    font-size: 10px;
+ line-height: 24px;
+   
+    
+    }
+    .pt1 .left button{
+      
+        width: 150px;
+    height: 50px;
+   
+    }
+    .pt1 .left a{     
+    font-size: 10px;
+    }
+
+
+    .pt1 .icon img{
+        width: 320px;
+        height: 380px;
+    }
+    .right .dr img{
+        width: 50px;
+        height: 50px;
+    
+    }
+
+
+    .right .dr{
+     
+        height: 60px;
+        width: 220px;
+      
+    }
+    .right .dr p{
+       
+    font-size: 14px;
+   
+    }
+    
+    .right .dr span{
+        
+    font-size: 10px;
+    
+    
+    
+    }
+
+
+    .pt2 .content{
+        height: 259px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+;
+    
+    }
+    .pt2 .text{
+    
+       
+    font-size: 28px;
+   
+    }
+  .pt2 .icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+   
+  }
+  .pt2 .icons img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   
+  }
+  .pt2 .content{
+    height: 400px;
+    padding: 0;
+}
+.top h1{
+    font-family: 'Poppins', sans-serif;
+font-size: 24px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+color: rgba(3, 20, 50, 1);
+}
+
+.top p{
+   padding-left: 60px;
+font-size: 12px;
+text-align: left;
+
+}
+
+.pt3 .cards {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.pt3 .cards h1{
+
+    font-size: 20px;  
+}
+.pt3 .cards p{
+  font-size: 10px;
+    
+}
+.pt3 .cards .card{
+    width: 300px;
+    height: 300px;
+    margin-top: 8px;
+    margin-left: 110px;
+}
+.pt3 .cards .card img{
+  
+    width: 60px;
+    height: 60px;
+ 
+
+}
+.card a{
+  
+    font-size: 14px;
+  
+    
+}
+.pt3 .cards .card button{
+    width: 242px;
+height: 45px;
+
+
+}
+.pt3 .cards .card button img{
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.pt4 .right h1{
+   
+font-size: 16px;
+line-height: 28px;
+
+}
+.pt4 .right p{
+
+font-size: 10px;
+line-height: 18px;
+
+}
+.pt4 .right button{
+    width: 160px;
+height: 50px;
+
+}
+.pt4 .right a{
+  
+font-size: 14px;
+
+
+}
+
+
+.pt4 .left img{
+    width:300px
+}
+.pt4 .left .frame{
+    width :180px;
+    height: 80px;
+    left: 150px;
+}
+.pt4 .left{
+    margin-right: -50px;
+}
+
+
+.pt5 .left h1{
+    
+font-size: 28px;
+line-height: 28px;
+
+}
+.pt5 .left p{
+    
+font-size: 12px;
+line-height: 22px;
+
+}
+.pt5 .left button{
+    width: 168px;
+height: 50px;
+}
+.pt5 .left a{   
+font-weight: 600;
+line-height: 20px;
+
+}
+.pt5 .right img{
+    width: 350px;
+}
+
+
+.pt6 .content{
+    display: flex;
+    width: 710px;
+height: 329px;
+margin: 0;
+
+}
+
+
+
+.pt6 .text h1{
+   
+font-size: 26px;
+
+}
+.pt6 .text p{
+    
+    font-size: 14px;
+    
+}
+
+.pt6 .buttons .calendar a{
+   
+font-size: 14px;
+
+
+}
+.pt6 .calendar{
+    width: 244px;
+height: 48px;
+
+}
+
+
+.pt6 .reserve {
+font-size: 14px;
+width: 158px;
+height: 48px;
+
+}
+
+.pt8 .cols{
+    gap: 30px;
+}
+
+.pt8 .cols .col-1 p{
+   
+font-size: 12px;
+
+line-height: 20px;
+
+}
+
+.pt8 .col-1 .whatsapp{
+    width: 28px;
+    height: 28px;
+}
+.pt8 .col-2{
+
+    gap: 14px;
+}
+.pt8 .col-2 h1{
+font-size: 12px;
+line-height: 22px;
+
+}
+.pt8 .col-2 p{
+
+  
+font-size: 12px;
+
+line-height:18px;
+
+
+}
+
+
+.pt8 .col-3 h1{
+
+    font-size: 12px;
+    line-height: 22px;
+
+}
+.pt8 .col-3 p{
+
+
+font-size: 12px;
+line-height: 18px;
+
+}
+
+
+.pt8 .col-4 h1{
+
+    font-size: 12px;
+    line-height: 22px;
+}
+.pt8 .col-4 p{
+
+   
+font-size: 12px;
+
+line-height: 18px;
+
+}
+
+.pt8 .line{
+    width: 900px;
+
+border: 1px solid rgba(255, 255, 255, 1);
+
+
+
+}
+.pt8 .copy{
+    
+font-size: 12px;
+line-height: 18px;
+
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+
+   
+    header .content .logo img{
+        width: 120px;
+    }
+
+}
+
